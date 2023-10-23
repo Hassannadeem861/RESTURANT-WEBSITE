@@ -1,0 +1,38 @@
+.Navigation-Bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .Navigation-Bar li{
+      margin: 0px 20px;
+  } 
+  
+  .Navigation-Bar li a{
+      text-decoration: none;
+      color: aliceblue;
+      font-size: 1.3em;
+  }
+  
+  /* .active{
+    background-color: aqua !important;
+    font-weight: bolder !important;
+  } */
+  
+  
+  .mobileNavigation-Bar{
+    list-style: none;
+  }
+  
+  
+  .mobileNavigation-Bar li{
+      margin-top: 20px;
+      
+  }
+  
+  .mobileNavigation-Bar li a{
+      color: black;
+      font-size: 1.3em;
+      text-decoration: none;
+  }
